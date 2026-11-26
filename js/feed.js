@@ -168,7 +168,8 @@
         .then(function (r) { return r.json(); });
     }
     var all = staticList ? Promise.resolve(staticList)
-      : fetch(STATIC.list)
+      // no-store: Pages caches files for 10 minutes, which would hide a new star.
+      : fetch(STATIC.list, { cache: 'no-store' })
           .then(function (r) { return r.json(); })
           .then(function (d) { staticList = (d && d.feed) || []; return staticList; });
     return all.then(function (list) {
