@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Keep lastmod accurate: it is the one hint Google acts on, and it only
+     trusts it while it stays honest. Google ignores changefreq and priority, so
+     this file does not carry them. Set each date to the day that page's source
+     last changed, which git log reports for the file.
+     (No double hyphen anywhere in here: XML forbids it inside a comment.) -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://mememage.art/</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://mememage.art/decoder</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://mememage.art/validator</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://mememage.art/feed</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://mememage.art/install/</loc>
+    <lastmod>2026-07-25</lastmod>
+  </url>
+  <url>
+    <loc>https://mememage.art/privacy/</loc>
+    <lastmod>2026-07-25</lastmod>
+  </url>
+</urlset>
